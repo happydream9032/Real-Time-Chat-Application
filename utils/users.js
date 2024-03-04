@@ -1,5 +1,5 @@
 const users = [];
-
+let user_json = {};
 // join user to chat
 function userJoin(id, username, room) {
    const user = { id, username, room };
